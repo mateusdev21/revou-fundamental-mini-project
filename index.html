@@ -24,16 +24,17 @@
         </div>
         <div class="flex">
             <div id="calculator-column" class="w-50 column">
-                <form id="bmi-calculator">
+                <form id="bmi-form">
                     <div class="input-wrapper">
                         <div class="mb-10">
                             <span class="input-label">Gender</span>
                         </div>
                         <input type="radio" id="male" name="gender" value="male" checked>
                         <label for="male">Male</label>
-                        <input type="radio" id="female" name="gender" value="female" onclick="alert('ggg')">
+                        <input type="radio" id="female" name="gender" value="female">
                         <label for="female">Female</label>
                     </div>
+
 
                     <div class="input-wrapper">
                         <div class="mb-10">
@@ -94,27 +95,8 @@
             </div>
             <div id="result-column" class="w-50 column hidden">
                 <h2>Result</h2>
-                <div class="result-box">
-                    <p id="result-text" class="text-center text-lg"></p>
-                    <p id="result-value" class="font-bold text-xl text-center mt-10"></p>
-                    <p id="result-description" class="text-center mt-10"></p>
-                    <div class="flex mt-10">
-                        <button class="button-primary" onclick="alert('Sorry, This Feature Is Under Development')">
-                            Download BMI Result
-                        </button>
-                    </div>
-                </div>
-                <p id="result-category" class="mt-10"></p>
-                <p id="result-advice"></p>
-                <p id="result-solution"></p>
-                <button class="button-primary" onclick="alert('Sorry, This Feature Is Under Development')">
-                    Nutritionist Consultation Via App
-                </button>
-                <button class="button-primary" onclick="alert('Sorry, This Feature Is Under Development')">
-                    Online Registration Of Nutritionists
-                </button>
-                <p>BMI does not fully represent a complete diagnosis of a person's health and risk of disease. You need
-                    to consult further about your risks and concerns related to your weight.</p>
+                <div id="result-box"></div>
+                <div id="result-detail"></div>
             </div>
         </div>
     </div>

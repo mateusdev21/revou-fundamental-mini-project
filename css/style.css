@@ -13,18 +13,19 @@ h2 {
 }
 
 form {
-    background-color: #f2e8cf;
+    background-color: transparent;
     padding: 12px 40px;
     border-radius: 8px;
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 40px;
+    border: 1px solid #386641;
 }
 
 input {
     padding: 4px;
     border-radius: 5px;
-    border: none;
+    border: 1px solid #6a994e;
     margin-right: 5px;
+    background-color: azure;
 }
 
 select {
@@ -61,6 +62,22 @@ select {
     display: flex;
     padding: auto;
     justify-content: center;
+}
+
+.bg-red {
+    background-color: #f8d7da;
+}
+
+.bg-yellow {
+    background-color: #fff3cd;
+}
+
+.bg-green {
+    background-color: #d1e7dd;
+}
+
+.bg-blue {
+    background-color: #cff4fc;
 }
 
 .mb-10 {
@@ -124,10 +141,19 @@ select {
     background-color: #6a994e;
 }
 
-.result-box {
-    background-color: #f2e8cf;
+#result-box {
+    /* background-color: #f2e8cf; */
     padding: 12px 40px;
     border-radius: 8px;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 40px;
+}
+
+.is-pregnant-warning {
+    background-color: #F3D9D9;
+    color: #FA3838;
+    font-weight: 500;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 15px 20px;
 }

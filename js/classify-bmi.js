@@ -22,6 +22,7 @@ export function classifyBmi(bmi) {
             result.value = bmi.toFixed(1);
         };
     });
+    console.log(result);
 
     return result;
 };
